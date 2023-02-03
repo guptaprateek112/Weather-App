@@ -9,25 +9,7 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary color-blue">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-              </li>
-              <li class="nav-item">
-              </li>
-              
-              <li class="nav-item">
-              </li>
-            </ul>
-            <form class="d-flex align-items-center"  role="search">
-              <input id="city" class="form-control me-2 object-center align-items-center" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success object-center align-items-center" type="submit" id="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+   
       <div class="container">
         
         <div class="container py-3">
@@ -37,9 +19,13 @@
                 </a>
               </div>
           
-              <h1 class="my-4 text-center"><span id="cityName"></span></h1>
+              <h1 class="my-4 text-center">Weather in : <span id="cityName"></span></h1>
             </header>
-          
+            <form class="d-flex align-items-center"  role="search">
+              <input id="city" class="form-control me-2 object-center align-items-center text-center" type="search" placeholder="Search Your City Here" aria-label="Search">
+              <button class="btn btn-outline-success object-center align-items-center text-center" type="submit" id="submit">Search</button>
+            <br><br><br><br>
+            </form>
             <main>
               <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
                 <div class="col">
